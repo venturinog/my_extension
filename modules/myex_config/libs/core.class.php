@@ -64,7 +64,7 @@ class core_MyExtension
      * Constructor
      *
      */
-    public function core_MyExtension()
+    public function __construct()
     {
         $this->_pACL    = NULL;
         $this->_dbCache = array();

@@ -38,9 +38,9 @@ class SOAP_MyExtension extends core_MyExtension
      *
      * @param  object   $objSOAPServer     SOAP Server Object
      */
-    public function SOAP_MyExtension($objSOAPServer)
+    public function __construct($objSOAPServer)
     {
-        parent::core_MyExtension();
+        parent::__construct();
         $this->objSOAPServer = $objSOAPServer;
     }
 
