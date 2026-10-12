@@ -12,10 +12,10 @@ var lang={};
 </div>
 <div class='col-md-5'>
         {if $mode eq 'input'}
-        <td align="left">
+        <div class="iss-form__buttons">
             <input class="button" type="submit" name="save_new" value="{$SAVE}">&nbsp;&nbsp;
             <input class="button" type="submit" name="cancel" value="{$CANCEL}">
-        </td>
+        </div>
         {/if}
 </div>
 </div>
