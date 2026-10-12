@@ -23,11 +23,11 @@ var lang={};
  
   <!-- Nav tabs -->
   <ul class="nav nav-tabs mymargin" role="tablist">
-    <li role="presentation" class="active"><a href="#general" aria-controls="general" role="tab" data-toggle="tab">{$GENERAL}</a></li>
-    <li role="presentation"><a href="#forward" aria-controls="forward" role="tab" data-toggle="tab">{$FORWARD}</a></li>
-    <li role="presentation"><a href="#recording" aria-controls="recording" role="tab" data-toggle="tab">{$RECORDING}</a></li>
+    <li role="presentation" class="active"><a href="#general" aria-controls="general" role="tab" data-bs-toggle="tab">{$GENERAL}</a></li>
+    <li role="presentation"><a href="#forward" aria-controls="forward" role="tab" data-bs-toggle="tab">{$FORWARD}</a></li>
+    <li role="presentation"><a href="#recording" aria-controls="recording" role="tab" data-bs-toggle="tab">{$RECORDING}</a></li>
     {if $SHOWQR == 1}
-    <li role="presentation"><a href="#qrcode" aria-controls="qrcode" role="tab" data-toggle="tab">{$QRCODE}</a></li>
+    <li role="presentation"><a href="#qrcode" aria-controls="qrcode" role="tab" data-bs-toggle="tab">{$QRCODE}</a></li>
     {/if}
   </ul>
 

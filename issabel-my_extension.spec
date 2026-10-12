@@ -3,7 +3,7 @@
 Summary: Issabel My Extension 
 Name: issabel-my_extension
 Version: 6.0.0
-Release: 2
+Release: 3
 License: GPL
 Group:   Applications/System
 Source0: issabel-%{modname}-%{version}.tar.gz
@@ -87,3 +87,7 @@ fi
 /usr/share/issabel/module_installer/*
 
 %changelog
+* Mon Oct 12 2026 Issabel Foundation <info@issabel.org> - 6.0.0-3
+- Switch the myex_config tabs to the Bootstrap 5 tab attribute
+  (data-bs-toggle); tabs did not switch under the modern theme otherwise.
+
